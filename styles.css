@@ -1,7 +1,9 @@
 @import "reset.css";
 
 body {
-  background-color: #f6f9fc;
+  background-color: cornflowerblue;
+  background-image: url(img/time_cat.jpg);
+  background-size: cover;
   font-family: "Segoe UI","Open Sans", "Helvetica Neue", sans-serif;
   display: flex;
   flex-direction: column;
@@ -14,6 +16,7 @@ body {
   height: 700px;
   background-color: white;
   border-radius: 15px;
+  border: 10px dotted burlywood;
   box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
 }
 
@@ -56,6 +59,7 @@ body {
   width: 50px;
   height: 50px;
   border-radius: 25px;
+  border: 1px solid white;  
   cursor: pointer;
   box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
 }
